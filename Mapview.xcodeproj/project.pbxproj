@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F2652C571C1D89BE004658A0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2652C521C1D896D004658A0 /* CoreLocation.framework */; };
 		F2F913751C1C58E100916334 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F913741C1C58E100916334 /* AppDelegate.swift */; };
 		F2F913771C1C58E100916334 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F913761C1C58E100916334 /* ViewController.swift */; };
 		F2F9137A1C1C58E100916334 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2F913781C1C58E100916334 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F2652C521C1D896D004658A0 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		F2F913711C1C58E100916334 /* Mapview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mapview.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2F913741C1C58E100916334 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F2F913761C1C58E100916334 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2652C571C1D89BE004658A0 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +80,7 @@
 		F2F913681C1C58E100916334 = {
 			isa = PBXGroup;
 			children = (
+				F2652C521C1D896D004658A0 /* CoreLocation.framework */,
 				F2F913731C1C58E100916334 /* Mapview */,
 				F2F913881C1C58E100916334 /* MapviewTests */,
 				F2F913931C1C58E100916334 /* MapviewUITests */,
@@ -482,6 +486,7 @@
 				F2F9139B1C1C58E100916334 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F2F9139C1C1C58E100916334 /* Build configuration list for PBXNativeTarget "MapviewTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +495,7 @@
 				F2F9139E1C1C58E100916334 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F2F9139F1C1C58E100916334 /* Build configuration list for PBXNativeTarget "MapviewUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +504,7 @@
 				F2F913A11C1C58E100916334 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
